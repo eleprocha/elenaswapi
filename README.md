@@ -33,27 +33,6 @@ future==0.18.2
 httplib2==0.20.4
 idna==3.3
 pefile==2021.9.3
-
-## Task1
-
-`python main.py search 'r2'`
-
-python main.py search 'elon'
-
-## Task2
-
-python main.py search 'sky' --world
-
-## Task3
-
-### Task3a
-
-python main.py search 'sky' --world
-
-## Task3b
-
-python main.py cache --clean
-
 pyinstaller==5.0
 pyinstaller-hooks-contrib==2022.4
 pyparsing==3.0.8
@@ -63,5 +42,27 @@ requests==2.27.1
 requests-cache==0.9.3
 six==1.16.0
 url-normalize==1.4.3
+
+## Task1
+
+`python main.py search 'r2'`
+
+`python main.py search 'elon'`
+
+## Task2
+
+`python main.py search 'sky' --world`
+
+## Task3
+
+### Task3a
+
+`python main.py search 'sky' --world`
+
+## Task3b
+
+`python main.py cache --clean`
+
+
 urllib3==1.26.9
 versiontools==1.9.1
