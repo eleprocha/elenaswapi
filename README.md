@@ -42,6 +42,8 @@ requests==2.27.1
 requests-cache==0.9.3
 six==1.16.0
 url-normalize==1.4.3
+urllib3==1.26.9
+versiontools==1.9.1
 
 ## Task1
 
@@ -57,12 +59,11 @@ url-normalize==1.4.3
 
 ### Task3a
 
-`python main.py search 'sky' --world`
+`python task3a.py search 'sky' --world`
 
 ## Task3b
 
-`python main.py cache --clean`
+`python task3b.py cache --clean`
 
 
-urllib3==1.26.9
-versiontools==1.9.1
+
