@@ -21,8 +21,6 @@ def search(**kwargs):
         birth_year = result['birth_year']
         print('Name: {0}\nHeight: {1}\nMass: {2}\nBirth Year: {3}'.format(dict['name'],height,mass,birth_year))
     else:
-        print(any({i:j for i,j in name_uid_dict.items() if kwargs['char'].replace("'","").upper() in i.upper()}))
-        print(kwargs['char'].upper())
         print('The force is not strong within you')
 
 
