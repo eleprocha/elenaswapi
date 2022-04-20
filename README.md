@@ -7,11 +7,11 @@
 
 * [Technologies](#technologies)
 
-*[Task1]
+* [Task1](#task1)
 
-*[Task2]
+* [Task2](#task2)
 
-*[Task3]
+* [Task3](#task3)
 
 ## General Info
 In this repo I made 3 out of the 4 tasks from the swapi assesment.
@@ -33,6 +33,27 @@ future==0.18.2
 httplib2==0.20.4
 idna==3.3
 pefile==2021.9.3
+
+## Task1
+
+`python main.py search 'r2'`
+
+python main.py search 'elon'
+
+## Task2
+
+python main.py search 'sky' --world
+
+## Task3
+
+### Task3a
+
+python main.py search 'sky' --world
+
+## Task3b
+
+python main.py cache --clean
+
 pyinstaller==5.0
 pyinstaller-hooks-contrib==2022.4
 pyparsing==3.0.8
